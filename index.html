@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator App</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="input-field">
+        <input id="input-box" type="text" placeholder="0" />
+      </div>
+      <div class="buttons">
+        <button class="special-btn">AC</button>
+        <button class="special-btn">DEL</button>
+        <button class="special-btn">%</button>
+        <button class="special-btn">/</button>
+      </div>
+      <div class="buttons">
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button class="special-btn">*</button>
+      </div>
+      <div class="buttons">
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button class="special-btn">-</button>
+      </div>
+      <div class="buttons">
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button class="special-btn">+</button>
+      </div>
+      <div class="buttons">
+        <button>00</button>
+        <button>0</button>
+        <button>.</button>
+        <button class="equal-btn">=</button>
+      </div>
+    </div>
+    <div class="animation-part">
+        <div class="loader">
+            <svg viewBox="0 0 80 80">
+              <circle r="32" cy="40" cx="40" id="test"></circle>
+            </svg>
+          </div>
+      
+          <div class="loader triangle">
+            <svg viewBox="0 0 86 80">
+              <polygon points="43 8 79 72 7 72"></polygon>
+            </svg>
+          </div>
+      
+          <div class="loader">
+            <svg viewBox="0 0 80 80">
+              <rect height="64" width="64" y="8" x="8"></rect>
+            </svg>
+          </div>
+      
+    </div>
+  </body>
+</html>
